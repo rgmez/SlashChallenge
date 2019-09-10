@@ -1,0 +1,30 @@
+/* 
+  localizable.strings
+  SlashChallenge
+
+  Created by Roberto Gómez on 04/09/2019.
+  Copyright © 2019 WembleyStudios. All rights reserved.
+*/
+
+"Welcome.FirstUser.title" = "First User";
+"Welcome.SecondUser.title" = "Second User";
+"Welcome.StartGame.title" = "Start Game!";
+"Welcome.ShowResults.title" = "Show Results";
+
+"Game.Turn.message" = "%@, is your turn!";
+"Game.Points.message" = "%d pts";
+
+"Question.CorrectAnswer.title" = "Good Answer!!";
+"Question.WrongAnswer.title" = "Bad Answer!!";
+"Question.CorrectAnswer.message" = "CORRECT ANSWER";
+"Question.WrongAnswer.message" = "WRONG ANSWER";
+
+"Results.Another.Action.message" = "Do you want to do anything?";
+"Results.Rematch.title" = "Rematch";
+"Results.Another.Oponent.title" = "Another Opponent";
+"Results.ShowResults.title" = "Show Results";
+"Results.title" = "Results";
+"Results.text" = "%@ WIN!!!";
+"Results.Tie.text" = "you're all tied up!!";
+
+"ResultList.ResultHistory.title" = "Results history";

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BlurViewController" customModule="SlashChallenge" customModuleProvider="target">
+            <connections>
+                <outlet property="activityIndicator" destination="IiH-FE-MM3" id="jLH-Xi-NuI"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="visualEffectView" destination="9Kx-fr-ZAK" id="5vc-k4-qkp"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" alpha="0.5" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9Kx-fr-ZAK">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="CIu-Ji-Wgf">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                    </view>
+                    <blurEffect style="light"/>
+                </visualEffectView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="IiH-FE-MM3">
+                    <rect key="frame" x="169" y="325" width="37" height="37"/>
+                </activityIndicatorView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="9Kx-fr-ZAK" secondAttribute="bottom" id="1rv-Qk-Fvf"/>
+                <constraint firstItem="IiH-FE-MM3" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="Gam-c0-1Yj"/>
+                <constraint firstItem="IiH-FE-MM3" firstAttribute="centerY" secondItem="fnl-2z-Ty3" secondAttribute="centerY" id="RKj-XH-CvH"/>
+                <constraint firstAttribute="trailing" secondItem="9Kx-fr-ZAK" secondAttribute="trailing" id="cEN-YE-C4T"/>
+                <constraint firstItem="9Kx-fr-ZAK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qs3-82-oDZ"/>
+                <constraint firstItem="9Kx-fr-ZAK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="zEB-dU-WRt"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <point key="canvasLocation" x="90" y="-118"/>
+        </view>
+    </objects>
+</document>
